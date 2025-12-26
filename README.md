@@ -10,7 +10,7 @@ This project builds a machine learning classification model to predict whether i
   * `0` → No rain tomorrow
 
 Key features include humidity, pressure, cloud cover, wind direction/speed, temperature, and rainfall indicators.
-## 🧠 Model Description:
+## Model Description:
 * **Model Type:** Machine Learning Classification
 * **Algorithm:** XGBoost Classifier
 * **Problem Type:** Binary Classification
@@ -72,8 +72,3 @@ probability = model.predict_proba(sample)[0, 1]
 * KaggleHub
 * Jupyter Notebook
 
-##  Disclaimer:
-
-This model predicts rain based on historical patterns and **does not represent official weather forecasts**. Real-time accuracy depends on the quality of input data.
-
-Bas bolo 😊
